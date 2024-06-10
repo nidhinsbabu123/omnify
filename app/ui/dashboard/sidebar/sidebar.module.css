@@ -1,0 +1,336 @@
+.container{
+    position: sticky;
+    top: 50px;
+    background-color: rgba(248, 250, 252, 1);
+}
+
+
+.logoheadMainContainer{
+    width: 228px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoheadMain{
+    width: 212px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logohead{
+    width: 204px;
+    height: 24;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frontdeskbox{
+    width: 150px;
+    height: 24px;
+    size: 18px;
+    line-height: 24px;
+}
+
+.frontdeskCollapse{
+    width: 20px;
+    height: 20px;
+    color: rgba(100, 116, 139, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.locationName{
+    width: 168px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* background-color: aqua; */
+    color: rgba(51, 65, 85, 1);
+}
+
+.locationNameIcon{
+    width: 16px;
+    height: 16px;
+    /* background-color: brown; */
+}
+
+.locationMain{
+    width: 212px;
+    height: 36px;
+    border: 0px, 0px, 1px, 0px;
+    padding: 8px, 8px, 8px, 12px;
+    gap: 4px;
+    background-color: rgba(255, 255, 255, 1);
+    /* border: 1px solid; */
+    border-color: rgba(226, 232, 240, 1);
+    box-shadow: rgba(100, 116, 139, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    z-index: 50;
+    position: relative;
+}
+
+.presentTime{
+    width: 70px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(51, 65, 85, 1);
+    display: contents;
+}
+
+.presentDate{
+    width: 70px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(51, 65, 85, 1);
+    display: contents;
+}
+
+.dateAndTime{
+    width: 200px;
+    height: 20px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dateshow{
+    width: 160px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timezone{
+    width: 100px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    color: rgba(51, 65, 85, 1);
+}
+
+.globeAndTimeZOne{
+    width: 100px;
+    height: 16px;
+    border: 0px, 1px, 0px, 0px;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.timeDateAndZone{
+    width: 149px;
+    height: 42px;
+    gap: 6px;
+    display: inline-table;
+    /* background-color: blue; */
+    margin-top: 10px;
+    /* margin-left: 19px; */
+}
+
+.datetimebox{
+    display: flex;
+    width: 193px;
+    height: 54px;
+    top: 30px;
+    left: 9.5px;
+    border-radius: 4px;
+    border: 1px solid linear-gradient(rgba(226, 232, 240, 1), rgba(248, 250, 252, 1)) ;
+    box-shadow: rgba(100, 116, 139, 0.05);
+    padding: 6px, 12px, 6px, 12px;
+    gap: 4px;
+    /* background-color: blue; */
+    background-color: rgba(241, 245, 249, 1);
+    margin-left: 18px;
+    margin-top: -7px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 158px;
+    height: 40px;
+    gap: 8px;
+    /* background-color: brown; */
+}
+
+.userDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 126px;
+    height: 40px;
+    /* background-color: blue; */
+}
+
+.adminname{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(15, 23, 42, 1);
+}
+
+.adminmailid{
+    font-size: 12px;
+    color: rgba(100, 116, 139, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.userDetailAndArrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 212px;
+    height: 40px;
+    /* background-color: aqua; */
+}
+
+.userParent{
+    width: 212px;
+    height: 60px;
+    border-radius: 6px;
+    border: 0px, 0px, 1px, 0px;
+    padding: 10px, 8px, 10px, 8px;
+    gap: 2px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(100, 116, 139, 0.05);
+}
+
+.helpdivcontainer{
+    width: 212px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px, 8px, 6px, 8px;
+    /* background-color: aqua; */
+}
+
+.helpdiv{
+    width: 196px;
+    height: 36px;
+    gap: 8px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.quesHelp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /* background-color: brown; */
+}
+
+.helpCenter{
+    /* width: 65px; */
+    /* height: 20px; */
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(51, 65, 85, 1);
+}
+
+.helpTag{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: rgba(100, 116, 139, 1);
+}
+
+.list{
+    /* padding: 20px; */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    gap: 10px;
+    /* background-color: aqua; */
+    width: 212px;
+    height: 431px;
+}
+
+.listItems{
+    display: flex;
+    gap: 8px;
+    width: 212px;
+    height: 32px;
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: left;
+    /* left: 0; */
+    border: 0px, 0px, 1px, 0px;
+    border-radius: 6px;
+    padding: 6px, 8px, 6px, 8px;
+}
+
+.listItems:hover{
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+
+
+.dashboardShortcutContainer{
+    width: 212px;
+    height: 32px;
+    border: 0px, 0px, 1px, 0px;
+    padding: 6px, 8px, 6px, 8px;
+    gap: 8px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dashboardtext{
+    width: 148px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(51, 65, 85, 1);
+    /* background-color: yellow; */
+}
+
+.dashboardicons{
+    width: 16px;
+    height: 16px;
+    color: rgba(51, 65, 85, 1);
+}
+
+.locationListDashboard{
+    width: 228px;
+    height: 610px;
+    padding: 8px;
+    gap: 24px;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+}
+

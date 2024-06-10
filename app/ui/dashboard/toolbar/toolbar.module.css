@@ -1,0 +1,143 @@
+/* .toolbarcontainer {
+    width: 100%;
+    height: 52px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: blueviolet;
+    display: flex;
+    box-shadow: 0px 0.5px 0px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px -0.5px 0px 0px rgba(0, 0, 0, 0.05) inset;
+    gap: 0;
+} */
+
+/* .traficlights {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 52px;
+    height: 12px;
+    position: relative;
+    top: 20px;
+    left: 21px;
+} */
+
+
+/* .toolbariconOneDiv {
+    width: 33px;
+    height: 28px;
+    position: relative;
+    top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    gap: 0px;
+    padding: 6.38px 6.71px 6.34px 6.71px;
+    border-radius: 6px;
+    opacity: 0px;
+} */
+
+/* .paginationArrowsContainer {
+    width: 66px;
+    height: 28px;
+    top: 12px;
+    left: 60px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .paginationArrows {
+    width: 33px;
+    height: 28px;
+    padding: 6.79px 0px 6.78px 0px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(115, 115, 115, 1);
+
+} */
+
+/* .titleAndShieldContainer {
+    width: 709.49px;
+    height: 28px;
+    left: 270px;
+    gap: 9px;
+    opacity: 0px;
+    display: flex;
+    position: relative;
+} */
+
+/* .shieldIconDiv {
+    width: 33px;
+    height: 28px;
+    left: -0.5px;
+    padding: 5.85px 9.6px 5.39px 9.6px;
+    gap: 0px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;
+    color: rgba(115, 115, 115, 1);
+} */
+
+/* .lockTitleAndRefreshcontainer {
+    width: 667px;
+    height: 28px;
+    left: 41.5px;
+    padding: 6px 6.33px 6px 273.59px;
+    gap: 0px;
+    border-radius: 8px 8px 8px 8px;
+    opacity: 0px;
+    background-color: rgba(235, 238, 240, 0.8);
+    display: flex;
+} */
+
+/* .lockAndTitleContainer {
+    width: 120.83px;
+    height: 16px;
+    top: 6px;
+    left: 273.59px;
+    gap: 3px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.lock {
+    width: 10px;
+    height: 11.43px;
+    color: rgba(131, 190, 140, 1);
+}
+
+.titlename {
+    width: 107px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Actor;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.64px;
+    letter-spacing: -0.004em;
+    text-align: left;
+    color: rgba(76, 76, 76, 1);
+}
+
+.reloadDiv{
+    top: 7.76px;
+    margin-left: 255px;
+}
+
+.reload {
+    width: 10.35px;
+    height: 12.62px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(121, 121, 121, 1);
+}
